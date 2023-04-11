@@ -1,0 +1,12 @@
+server:
+  port: 5000
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://ustinterview.c7fozmmfhxmo.ap-south-1.rds.amazonaws.com/ustinterviews
+    username: root
+    password: Shadow222310
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
